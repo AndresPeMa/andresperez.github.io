@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-{% if site.lang %}<html lang="{{ site.lang }}">{% else %}<html>{% endif %}
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
 
 <head>
     <meta charset="utf-8">
